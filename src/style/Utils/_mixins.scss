@@ -61,6 +61,14 @@
     margin-top: 20px;
 }
 
+@mixin flex-about-banner {
+    position: relative;
+    @include flex-center;
+    width: 100%;
+    @include bkgrd($about-background);
+    margin-top: 20px;
+}
+
 @mixin small-radius {
     border-radius: 10px;
 }
